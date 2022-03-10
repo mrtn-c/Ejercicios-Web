@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Alumnos {
+class Alumnos { //Base de datos, tiene que buscar, ordenarse x lo que quiera y motor de ofertas.
     public static void main (String[] args) {
         
         String [] alumnos = new String [1000];
@@ -20,13 +20,16 @@ class Alumnos {
             if (r == 1){
                 i = 1000;
             }
-
         }    
 
     }
 
-    private void buscarAlumno(int cant) {
+    private void mostrarAlumnos(int cant, String [] alumnos, String [] ciudad) {
+        System.out.println("Nombre\n-- Ciudad\n");
         
+
+
+
         
     }
 }
